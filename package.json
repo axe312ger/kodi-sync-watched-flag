@@ -1,0 +1,22 @@
+{
+  "name": "kodi-sync-watched-flag",
+  "version": "1.0.0",
+  "description": "Syncs the watched flag between multiple kodi databases into a decentral kodi database.",
+  "main": "index.js",
+  "author": "Benedikt Rötsch <info@benedikt-roetsch.de>",
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/axe312ger/kodi-sync-watched-flag"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "jsonfile": "^2.2.1",
+    "lodash": "^3.10.1",
+    "mysql": "^2.8.0",
+    "progress": "^1.1.8",
+    "sqlite3": "^3.0.10",
+    "walk": "^2.3.9",
+    "yargs": "^3.19.0"
+  }
+}
